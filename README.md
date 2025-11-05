@@ -22,7 +22,7 @@ The portfolio is designed with **clarity, accessibility, and responsive design**
 ---
 
 ## 🌐 Live Demo
-👉 [View Portfolio](https://username.github.io/portfolio/)
+👉 [View Portfolio](https://pushkarsah.github.io/Pushkar-Sah-Portfolio/)
 
 ---
 
