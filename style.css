@@ -1,23 +1,17 @@
-/* ===========
-   Vibrant Portfolio Theme
-   ========== */
-
-/* Color system */
 :root {
-  --bg: #0f1226;            /* deep indigo background for hero contrasts */
-  --surface: #0f1b2e;       /* night blue surface */
-  --card: #121a33;          /* card background */
-  --text: #e6edf7;          /* primary text (near-white) */
-  --muted: #b8c2d9;         /* secondary text */
-  --accent: #00ffd1;        /* neon teal */
-  --accent-2: #ff6b6b;      /* coral pop */
-  --accent-3: #8a2be2;      /* electric purple */
-  --accent-4: #ffd166;      /* warm amber */
+  --bg: #0f1226;            
+  --surface: #0f1b2e;       
+  --card: #121a33;          
+  --text: #e6edf7;         
+  --muted: #b8c2d9;         
+  --accent: #00ffd1;        
+  --accent-2: #ff6b6b;      
+  --accent-3: #8a2be2;      
+  --accent-4: #ffd166;      
   --link: #00ffd1;
   --shadow: rgba(0, 0, 0, 0.35);
 }
 
-/* Reset & base */
 * {
   margin: 0;
   padding: 0;
@@ -35,18 +29,15 @@ body {
   color: var(--text);
 }
 
-/* Global containers */
 main {
   padding: 56px 20px;
-  /* Ensure footer reaches the bottom on short pages (no flexbox) */
-  min-height: calc(100vh - 220px); /* adjust if header/footer sizes change */
+  min-height: calc(100vh - 220px);
 }
 
 section {
   margin-bottom: 56px;
 }
 
-/* Header & navigation */
 header {
   background: linear-gradient(135deg, #0f1b2e 0%, #121a33 50%, #1a2743 100%);
   color: var(--text);
@@ -68,7 +59,6 @@ header p {
   font-size: 1rem;
 }
 
-/* Nav */
 nav ul {
   list-style: none;
   display: flex;
@@ -95,7 +85,6 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-/* Hero sections */
 .hero {
   text-align: center;
   padding: 88px 24px;
@@ -119,7 +108,6 @@ nav a:hover {
   margin: 0 auto 24px;
 }
 
-/* Quote Section */
 .quote {
   max-width: 800px;
   margin: 60px auto;
@@ -144,7 +132,6 @@ nav a:hover {
   color: var(--muted);
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 12px 24px;
@@ -164,14 +151,12 @@ nav a:hover {
   filter: brightness(1.05);
 }
 
-/* Secondary button variant */
 .btn-secondary {
   background: linear-gradient(90deg, var(--accent-2) 0%, #ffa3a3 100%);
   color: #0a0d1a;
   box-shadow: 0 10px 24px rgba(255, 107, 107, 0.25);
 }
 
-/* Cards & grids */
 .card {
   background: var(--card);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -186,7 +171,6 @@ nav a:hover {
   gap: 24px;
 }
 
-/* Highlight tiles */
 .highlight {
   background:
     linear-gradient(180deg, rgba(255, 209, 102, 0.2), rgba(255, 209, 102, 0.06)),
@@ -202,7 +186,6 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-/* Project cards */
 .project-card {
   background:
     linear-gradient(180deg, rgba(138, 43, 226, 0.16), rgba(138, 43, 226, 0.06)),
@@ -243,7 +226,6 @@ nav a:hover {
   box-shadow: 0 12px 28px rgba(138, 43, 226, 0.45);
 }
 
-/* Profile picture */
 .profile-pic {
   width: 180px;
   height: 180px;
@@ -260,7 +242,6 @@ nav a:hover {
   border-color: var(--accent-3);
 }
 
-/* Lists */
 ul {
   list-style: none;
   padding-left: 0;
@@ -281,7 +262,6 @@ ul {
   box-shadow: 0 6px 18px var(--shadow);
 }
 
-/* Contact form */
 form {
   max-width: 640px;
   margin: 0 auto;
@@ -335,7 +315,6 @@ form .actions {
   gap: 12px;
 }
 
-/* Footer */
 footer {
   background: linear-gradient(135deg, #121a33 0%, #0f1b2e 60%, #0a0d1a 100%);
   color: var(--muted);
@@ -361,7 +340,6 @@ footer a:hover {
   text-shadow: 0 0 10px rgba(0, 255, 209, 0.5);
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   nav ul {
     gap: 12px;
@@ -375,4 +353,5 @@ footer a:hover {
   main {
     padding: 40px 16px;
   }
+
 }
